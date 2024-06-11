@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#header-bg{
+ background-image: url('../Images/lw7.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
+ height: 160vh;
+ background-position: center;
+ padding-left: 10rem;
+ padding-right: 10rem;
+ padding-top: 1rem;
+}
+
+
+#navv{
+    display: flex;
+    gap: 2rem;
+    font-weight: bold
+}
+
+#logo{
+    /* font-weight:; */
+   color: yellow;
+   text-decoration: none;
+   font-size: 25pt;
+}
+
+#ul-list{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+.nav-links{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+#header-text{
+    gap: 50px;
+}
+#header-text h6{
+    font-size: 15pt;
+}
+
+#header-text p{
+    font-size: 20pt;
+}
